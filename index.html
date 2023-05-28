@@ -13,35 +13,47 @@
 <body>
     <!--Encabezado-->
     <!--Components(Navbar) Utilities(Colors, Background "bg", Spacing, Text )-->
-    <header>
-        <nav class="navbar navbar-expand-lg" id="nav">
-            <div class="container-fluid">
-              <a class="navbar-brand fs-3 fw-bold"  id="nav_a">PLANTA DE CONGELADOS</a>
+    <header class="container-fluid  d-flex justify-content-center">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="./media/Planta-congelado.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            PlantaCongelados
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Section 1 -->
+        <nav class="navbar navbar-expand-lg" id="menu">
+            <div class="container">
+              <a class="navbar-brand">
+                <span class="fs-5 fw-bold" id="nav_a">PlantaCongelado</span>
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link fs-5" href="#" id="nav_a">¿Quiénes somos?</a>
+                    <a class="nav-link" aria-current="page" href="#" id="nav_a">¿Quiénes somos?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-5" href="#" id="nav_a">Nuestros Productos</a>
+                    <a class="nav-link" href="#producto" id="nav_a">Nuestros Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-5" href="#" id="nav_a">Contactanos</a>
+                    <a class="nav-link " href="#seccion-contacto" id="nav_a">Contactanos</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-    </header>
  
-    <!--Seccion 1-->
+    <!--Seccion 2 imagenes-->
     <!--Components(Carusel) , EXTRA (Bulk Resize Photos "PARA IGUALAR IMAGENES") -->
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner ">
           <div class="carousel-item active" data-bs-interval="30000">
             <img src="./media/PC1.jpg" class="d-block w-100" alt="PC1">
           </div>
@@ -62,17 +74,18 @@
         </button>
       </div>
 
-      <!--Seccion 2-->
-      <!--Utilities(Text) -->
-    <section>
+      <!--¿quienes somos?-->
+      <!--Utilities(Text, Borders(Width"w"), Spacing, Position,Flez, Vertical align) -->
+    <section class="w-50 mx-auto text-center pt-5 align-items-center justify-content-center" id="intro">
         <div class="container">
-            <h1>PLANTA DE CONGELADOS<br> donde nos aseguramos de porporcionar a nuestros clientes productos congelados de la mejor calidad</h1>
-            <p> </p>
-
-
+            <h1 class="p-3 fs-1 border border-3 border-info ">Una planta donde nos aseguramos de porporcionar a nuestros clientes<span class="text-primary"> productos congelados</span> de la mejor calidad</h1>
+            <p>
+              <span class="text-primary fw-bold">PlantaCongelado</span> Somos una empresa especializada en la importación y exportación tanto de pescado salvaje como de acuicultura, con oficinas abiertas en Asia y con presencia en otros origines estratégicos demandados por nuestros clientes.
+              Una relacion fluida y transparente entre todas las partes es nuestro objetivo primordial, no sólo se trata de comprar-vender. </p>
         </div>
     </section>
  
+      <!--   -->
  
     <!--
     <div>

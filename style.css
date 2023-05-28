@@ -1,11 +1,20 @@
-html {
+/* Propiedades Globales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
     background-color: #90E0EF;
 }
 
-/* ENCABEZADO PERSONALIZADO */
+/* ENCABEZADO*/
 
-#nav {
+header {
     background-color: #03045E;
+}
+
+/* SECTION 1 */
+
+#menu {
+    background-color: #0077B6;
 }
 
 #nav_a {
@@ -17,6 +26,18 @@ html {
 }
 
 
+/* Section 2 imagenes */
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+/* ¿quienes somos? */
+
+h1 {
+    color: #03045E;
+    
+}
 
 
 
@@ -42,6 +63,19 @@ html {
 
 
 
-/* Modificando nuestra pantalla*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
