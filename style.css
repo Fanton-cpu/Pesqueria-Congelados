@@ -32,16 +32,19 @@ header {
     max-height:39rem !important;
 }
 
-/* ¿quienes somos? */
+/* INTRO */
 
 h1 {
     color: #03045E;
     
 }
 
+/* FINAL */
 
-
-
+#final p {
+    background-color: #03045E;
+    color: #CAF0F8;
+}
 
 
 
